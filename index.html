@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUS</title>
+    <link rel="stylesheet" href="index.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;900&display=swap&display=swap" rel="stylesheet">
+    
+</head>
+<style>
+
+*{
+    padding: 0;
+    margin: 0;
+
+
+}
+body{
+    display: flex;
+    font-family: Lexend;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(115.23deg, #FF0071 -30.87%, #000000 126.24%);
+    overflow-y: scroll;
+    background-attachment: fixed;
+}
+img{
+    height: 30rem;
+}
+#para{
+    color: white;
+    padding: 5rem;
+    background-color: #00000051;
+    padding: 2rem;
+    border-radius: 10px;
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+button{
+    box-sizing: border-box;
+    padding: 0.8rem 1.3rem;
+    color: white;
+    background-color: transparent;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 50px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: #ffc1dd;
+}
+section{
+    color: white;
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    line-height: 30px;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    height: max-content;
+    margin: 2rem;
+    
+}
+
+@media screen and (max-width: 700px) {
+
+section{
+    flex-wrap: wrap;
+    width: 80%;
+
+}
+img{
+    position: relative;
+    margin-top: 100%;
+    top: 10%;
+}
+}
+
+</style>
+<body>
+    <div style="display:flex; justify-content:center; align-items:center; ">
+        <section>
+            <img style=" filter: drop-shadow(-14.1095px 16.9314px 31.0408px rgba(0, 0, 0, 0.25)); border-radius: 15px;" src="./assets/pic.png">
+        <div id="para">
+            <p >
+            Hi, I'm <span style="font-weight:bold;">Sreyas C U</span>  <br>
+            I'm a Computer Science Engineer from Kerala, India. 
+            I am proactive in all aspects of my life, and I believe in the notion of lifelong learning. That is, you can learn something from almost anything. For me, playing games with a critical eye taught me about game design, reading professional books restructured my life for the better and watching thought-provoking shows never failed to show a new outlook on life that I was previous blind to. Futhermore, all these dispersed thoughts amalgamate into my personal blog, where I try to piece together my thoughts to provide others with some value.</p>
+        <div id="buttons">
+            <a href=""><button>RESUME</button></a>
+            <a href="">LinkedIn</a>
+            <a href="">Blog</a>
+            <a href="">Twitter</a>
+        </div>
+        </div>    
+        </section>
+    </div>
+</body>
+</html>
