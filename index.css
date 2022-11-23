@@ -55,6 +55,7 @@ img{
 #buttons{
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     gap: 1.5rem;
     align-items: center;
     margin-top: 1rem;
@@ -104,12 +105,17 @@ section{
     width: 80%;
 
 }
+#para p{
+    width: fit-content;
+}
 img{
     margin-top: 3rem;
     border-radius: 15px;
 }
 #indiv{
-    
+    flex-wrap: wrap;
+}
+#buttons{
     flex-wrap: wrap;
 }
 }
