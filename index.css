@@ -33,6 +33,11 @@ img{
     width: fit-content;
     flex-shrink: 0;
 }
+img:hover{
+    scale: 102%;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+}
 
 #indiv{
     display: flex;
